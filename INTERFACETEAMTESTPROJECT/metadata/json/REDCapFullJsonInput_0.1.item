@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendJSON:JSONFileConnection Encoding="UTF-8" JSONFilePath="//bemshare1/home/Dmartin/My Documents/IT/Interfaces Team/REDCap/Test Messages &amp; API Results/REDCapOneRecordOut.json" dataPackage="_dT88BWd7Ee245oOoXdP2lg" name="REDCapFullJsonInput" readbyMode="JSONPATH" xmi:id="_dT87cGd7Ee245oOoXdP2lg">
+    <schema AbsoluteXPathQuery="$.data[*]" LimitBoucle="50" flag="ROOT" xmi:id="_dT87cWd7Ee245oOoXdP2lg">
+      <schemaTargets RelativeXPathQuery="record_id" TagName="record_id" xmi:id="_dT87cmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="mrn" TagName="mrn" xmi:id="_dT87c2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pat_id" TagName="pat_id" xmi:id="_dT87dGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pin" TagName="pin" xmi:id="_dT87dWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="token" TagName="token" xmi:id="_dT87dmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="report_version" TagName="report_version" xmi:id="_dT87d2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="report_upload_date" TagName="report_upload_date" xmi:id="_dT87eGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pat_last_name" TagName="pat_last_name" xmi:id="_dT87eWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pat_middle_name" TagName="pat_middle_name" xmi:id="_dT87emd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pat_first_name" TagName="pat_first_name" xmi:id="_dT87e2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="birth_date" TagName="birth_date" xmi:id="_dT87fGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="age" TagName="age" xmi:id="_dT87fWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="age_range" TagName="age_range" xmi:id="_dT87fmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="sex" TagName="sex" xmi:id="_dT87f2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="language" TagName="language" xmi:id="_dT87gGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="race" TagName="race" xmi:id="_dT87gWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="ethnicity" TagName="ethnicity" xmi:id="_dT87gmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="guardian_name" TagName="guardian_name" xmi:id="_dT87g2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="email" TagName="email" xmi:id="_dT87hGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="attributed_pcp_primary_department" TagName="attributed_pcp_primary_department" xmi:id="_dT87hWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="attributed_pcp" TagName="attributed_pcp" xmi:id="_dT87hmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="insurance" TagName="insurance" xmi:id="_dT87h2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="membership_status" TagName="membership_status" xmi:id="_dT87iGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="mychart_status" TagName="mychart_status" xmi:id="_dT87iWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="home_phone" TagName="home_phone" xmi:id="_dT87imd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="address" TagName="address" xmi:id="_dT87i2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="address_2" TagName="address_2" xmi:id="_dT87jGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="city" TagName="city" xmi:id="_dT87jWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="state" TagName="state" xmi:id="_dT87jmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="zip" TagName="zip" xmi:id="_dT87j2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="subsite" TagName="subsite" xmi:id="_dT87kGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="state_sd" TagName="state_sd" xmi:id="_dT87kWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="preconsent_complete" TagName="preconsent_complete" xmi:id="_dT87kmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="recruit_type" TagName="recruit_type" xmi:id="_dT87k2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="recruit_mode" TagName="recruit_mode" xmi:id="_dT87lGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="ok_to_contact" TagName="ok_to_contact" xmi:id="_dT87lWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="initial_recruit_sent" TagName="initial_recruit_sent" xmi:id="_dT87lmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="date_batched" TagName="date_batched" xmi:id="_dT87l2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="date_sent" TagName="date_sent" xmi:id="_dT87mGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="deident_sent" TagName="deident_sent" xmi:id="_dT87mWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="verification_sent" TagName="verification_sent" xmi:id="_dT87mmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="date_verified" TagName="date_verified" xmi:id="_dT87m2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="date_signed_in" TagName="date_signed_in" xmi:id="_dT87nGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="days_signed_in" TagName="days_signed_in" xmi:id="_dT87nWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="date_consented" TagName="date_consented" xmi:id="_dT87nmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="update_sent" TagName="update_sent" xmi:id="_dT87n2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="recruit_status" TagName="recruit_status" xmi:id="_dT87oGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="auto_verify" TagName="auto_verify" xmi:id="_dT87oWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="manual_verify" TagName="manual_verify" xmi:id="_dT87omd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="outreach_needed" TagName="outreach_needed" xmi:id="_dT87o2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="outreach_needed_yes" TagName="outreach_needed_yes" xmi:id="_dT87pGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="verification" TagName="verification" xmi:id="_dT87pWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="duplicate_type" TagName="duplicate_type" xmi:id="_dT87pmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="no_verified_reason___1" TagName="no_verified_reason___1" xmi:id="_dT87p2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="no_verified_reason___2" TagName="no_verified_reason___2" xmi:id="_dT87qGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="no_verified_reason___3" TagName="no_verified_reason___3" xmi:id="_dT87qWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="no_verified_reason___4" TagName="no_verified_reason___4" xmi:id="_dT87qmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="no_verified_reason___5" TagName="no_verified_reason___5" xmi:id="_dT87q2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="other_not_verified" TagName="other_not_verified" xmi:id="_dT87rGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="ineligible_age" TagName="ineligible_age" xmi:id="_dT87rWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="ineligible_site" TagName="ineligible_site" xmi:id="_dT87rmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="ineligible_cancer" TagName="ineligible_cancer" xmi:id="_dT87r2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="ineligible_guardian" TagName="ineligible_guardian" xmi:id="_dT87sGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="update_recruit_type" TagName="update_recruit_type" xmi:id="_dT87sWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout" TagName="optout" xmi:id="_dT87smd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___1" TagName="optout_reason___1" xmi:id="_dT87s2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___2" TagName="optout_reason___2" xmi:id="_dT87tGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___3" TagName="optout_reason___3" xmi:id="_dT87tWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___4" TagName="optout_reason___4" xmi:id="_dT87tmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___5" TagName="optout_reason___5" xmi:id="_dT87t2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___6" TagName="optout_reason___6" xmi:id="_dT87uGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___7" TagName="optout_reason___7" xmi:id="_dT87uWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___8" TagName="optout_reason___8" xmi:id="_dT87umd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___9" TagName="optout_reason___9" xmi:id="_dT87u2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___10" TagName="optout_reason___10" xmi:id="_dT87vGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___11" TagName="optout_reason___11" xmi:id="_dT87vWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___12" TagName="optout_reason___12" xmi:id="_dT87vmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___13" TagName="optout_reason___13" xmi:id="_dT87v2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___14" TagName="optout_reason___14" xmi:id="_dT87wGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___15" TagName="optout_reason___15" xmi:id="_dT87wWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___16" TagName="optout_reason___16" xmi:id="_dT87wmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___17" TagName="optout_reason___17" xmi:id="_dT87w2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___18" TagName="optout_reason___18" xmi:id="_dT87xGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___19" TagName="optout_reason___19" xmi:id="_dT87xWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___20" TagName="optout_reason___20" xmi:id="_dT87xmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___21" TagName="optout_reason___21" xmi:id="_dT87x2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___22" TagName="optout_reason___22" xmi:id="_dT87yGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___23" TagName="optout_reason___23" xmi:id="_dT87yWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___24" TagName="optout_reason___24" xmi:id="_dT87ymd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___25" TagName="optout_reason___25" xmi:id="_dT87y2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___26" TagName="optout_reason___26" xmi:id="_dT87zGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___27" TagName="optout_reason___27" xmi:id="_dT87zWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___28" TagName="optout_reason___28" xmi:id="_dT87zmd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___29" TagName="optout_reason___29" xmi:id="_dT87z2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___30" TagName="optout_reason___30" xmi:id="_dT870Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___31" TagName="optout_reason___31" xmi:id="_dT870Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___32" TagName="optout_reason___32" xmi:id="_dT870md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___33" TagName="optout_reason___33" xmi:id="_dT8702d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason___34" TagName="optout_reason___34" xmi:id="_dT871Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="optout_reason_other" TagName="optout_reason_other" xmi:id="_dT871Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="campaign_type" TagName="campaign_type" xmi:id="_dT871md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="campaign_type_other" TagName="campaign_type_other" xmi:id="_dT8712d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="connect_id" TagName="connect_id" xmi:id="_dT872Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="recruitment_complete" TagName="recruitment_complete" xmi:id="_dT872Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pat_first_name_nci" TagName="pat_first_name_nci" xmi:id="_dT872md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pat_last_name_nci" TagName="pat_last_name_nci" xmi:id="_dT8722d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="birth_date_nci" TagName="birth_date_nci" xmi:id="_dT873Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pin_nci" TagName="pin_nci" xmi:id="_dT873Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pat_first_name_valid" TagName="pat_first_name_valid" xmi:id="_dT873md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pat_last_name_valid" TagName="pat_last_name_valid" xmi:id="_dT8732d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="birth_date_valid" TagName="birth_date_valid" xmi:id="_dT874Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="pin_valid" TagName="pin_valid" xmi:id="_dT874Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="valid_pct" TagName="valid_pct" xmi:id="_dT874md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="validation_complete" TagName="validation_complete" xmi:id="_dT8742d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="max_contacts" TagName="max_contacts" xmi:id="_dT875Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail" TagName="return_mail" xmi:id="_dT875Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___1" TagName="return_mail_reason___1" xmi:id="_dT875md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___2" TagName="return_mail_reason___2" xmi:id="_dT8752d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___3" TagName="return_mail_reason___3" xmi:id="_dT876Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___4" TagName="return_mail_reason___4" xmi:id="_dT876Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___5" TagName="return_mail_reason___5" xmi:id="_dT876md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___6" TagName="return_mail_reason___6" xmi:id="_dT8762d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___7" TagName="return_mail_reason___7" xmi:id="_dT877Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___8" TagName="return_mail_reason___8" xmi:id="_dT877Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___9" TagName="return_mail_reason___9" xmi:id="_dT877md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___10" TagName="return_mail_reason___10" xmi:id="_dT8772d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___11" TagName="return_mail_reason___11" xmi:id="_dT878Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___12" TagName="return_mail_reason___12" xmi:id="_dT878Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="return_mail_reason___55" TagName="return_mail_reason___55" xmi:id="_dT878md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="year1_total_contacts" TagName="year1_total_contacts" xmi:id="_dT8782d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="initial_contact_comments" TagName="initial_contact_comments" xmi:id="_dT879Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_1_date" TagName="phone_contact_1_date" xmi:id="_dT879Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_1_staff" TagName="phone_contact_1_staff" xmi:id="_dT879md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_1_staff_other" TagName="phone_contact_1_staff_other" xmi:id="_dT8792d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_1_outcome" TagName="phone_contact_1_outcome" xmi:id="_dT87-Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_1_status" TagName="phone_contact_1_status" xmi:id="_dT87-Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_1_comments" TagName="phone_contact_1_comments" xmi:id="_dT87-md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="mm_contact_2_date" TagName="mm_contact_2_date" xmi:id="_dT87-2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="mm_contact_2_mode" TagName="mm_contact_2_mode" xmi:id="_dT87_Gd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="mm_contact_2_comments" TagName="mm_contact_2_comments" xmi:id="_dT87_Wd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_2_date" TagName="phone_contact_2_date" xmi:id="_dT87_md7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_2_staff" TagName="phone_contact_2_staff" xmi:id="_dT87_2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_2_staff_other" TagName="phone_contact_2_staff_other" xmi:id="_dT88AGd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_2_outcome" TagName="phone_contact_2_outcome" xmi:id="_dT88AWd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_2_status" TagName="phone_contact_2_status" xmi:id="_dT88Amd7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="phone_contact_2_comments" TagName="phone_contact_2_comments" xmi:id="_dT88A2d7Ee245oOoXdP2lg"/>
+      <schemaTargets RelativeXPathQuery="contact_log_complete" TagName="contact_log_complete" xmi:id="_dT88BGd7Ee245oOoXdP2lg"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_dT87cGd7Ee245oOoXdP2lg" name="default" xmi:id="_dT88BWd7Ee245oOoXdP2lg">
+    <ownedElement id="_opccwGdqEe245oOoXdP2lg" label="REDCapFullData" xmi:id="_dT88Bmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="record_id" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88B2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="mrn" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88CGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pat_id" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88CWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pin" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88Cmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="token" length="36" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88C2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="report_version" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88DGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="report_upload_date" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_dT88DWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pat_last_name" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88Dmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pat_middle_name" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88D2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pat_first_name" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88EGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="birth_date" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_dT88EWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="age" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Emd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="age_range" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88E2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="sex" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88FGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="language" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88FWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="race" length="15" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88Fmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ethnicity" length="22" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88F2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="guardian_name" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88GGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="email" length="32" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88GWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="attributed_pcp_primary_department" length="31" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88Gmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="attributed_pcp" length="31" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88G2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="insurance" length="33" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88HGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="membership_status" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88HWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="mychart_status" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88Hmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="home_phone" length="14" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88H2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="address" length="27" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88IGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="address_2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88IWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="city" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88Imd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="state" length="12" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88I2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="zip" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88JGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="subsite" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88JWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="state_sd" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88Jmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="preconsent_complete" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88J2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="recruit_type" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88KGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="recruit_mode" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88KWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ok_to_contact" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88Kmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="initial_recruit_sent" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88K2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="date_batched" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88LGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="date_sent" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_dT88LWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="deident_sent" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Lmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="verification_sent" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88L2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="date_verified" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88MGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="date_signed_in" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88MWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="days_signed_in" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88Mmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="date_consented" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88M2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="update_sent" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88NGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="recruit_status" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88NWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="auto_verify" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Nmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="manual_verify" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88N2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="outreach_needed" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88OGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="outreach_needed_yes" length="73" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88OWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="verification" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Omd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="duplicate_type" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88O2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="no_verified_reason___1" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88PGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="no_verified_reason___2" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88PWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="no_verified_reason___3" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Pmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="no_verified_reason___4" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88P2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="no_verified_reason___5" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88QGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="other_not_verified" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88QWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ineligible_age" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Qmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ineligible_site" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Q2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ineligible_cancer" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88RGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ineligible_guardian" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88RWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="update_recruit_type" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88Rmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88R2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___1" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88SGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___2" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88SWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___3" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Smd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___4" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88S2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___5" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88TGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___6" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88TWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___7" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Tmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___8" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88T2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___9" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88UGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___10" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88UWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___11" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Umd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___12" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88U2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___13" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88VGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___14" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88VWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___15" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Vmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___16" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88V2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___17" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88WGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___18" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88WWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___19" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Wmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___20" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88W2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___21" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88XGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___22" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88XWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___23" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Xmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___24" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88X2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___25" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88YGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___26" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88YWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___27" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Ymd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___28" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Y2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___29" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88ZGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___30" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88ZWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___31" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Zmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___32" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88Z2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___33" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88aGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason___34" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88aWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="optout_reason_other" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88amd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="campaign_type" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88a2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="campaign_type_other" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88bGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="connect_id" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88bWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="recruitment_complete" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88bmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pat_first_name_nci" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88b2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pat_last_name_nci" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88cGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="birth_date_nci" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88cWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pin_nci" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88cmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pat_first_name_valid" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88c2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pat_last_name_valid" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88dGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="birth_date_valid" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88dWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="pin_valid" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88dmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="valid_pct" length="4" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_dT88d2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="validation_complete" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88eGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="max_contacts" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88eWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88emd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___1" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88e2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___2" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88fGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___3" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88fWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___4" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88fmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___5" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88f2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___6" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88gGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___7" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88gWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___8" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88gmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___9" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88g2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___10" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88hGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___11" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88hWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___12" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88hmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="return_mail_reason___55" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88h2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="year1_total_contacts" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88iGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="initial_contact_comments" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88iWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_1_date" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88imd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_1_staff" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88i2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_1_staff_other" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88jGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_1_outcome" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88jWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_1_status" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88jmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_1_comments" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88j2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="mm_contact_2_date" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88kGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="mm_contact_2_mode" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88kWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="mm_contact_2_comments" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88kmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_2_date" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88k2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_2_staff" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88lGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_2_staff_other" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88lWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_2_outcome" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88lmd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_2_status" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88l2d7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="phone_contact_2_comments" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_dT88mGd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="contact_log_complete" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_dT88mWd7Ee245oOoXdP2lg" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_244e1b17-c5be-4cf4-b7fc-54d5a57b24bc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4wHBXKp/PXCcPLuIr7bjthmb68XDT9Y7aG4AFQbfY/z68vrwCcOscNwh6bIvVK2qqAFxyuTiiIfH&#13;
+ux8XFTlPCw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_12d964fd-cbd7-40aa-9d72-f2d8d153b0ea"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>H+uElqb6Q4SF1Wv+iFV0RbAG5BfH4AXe45WKepwVos9MaEbhRE+TfIOZzwCh/qVGwTyega7pzs3t&#13;
+ePiSCwk7fw==</DigestValue></Reference></SignedInfo><SignatureValue>hFe/mlIBIdKwEAlpqtAm4pOs1cXrrTaTlNfbhUXB/1M4PYejL5btiy0PqJrkDJPsvm+yfrHjye9B&#13;
+evJL/LZk5uG13pN1YOsiR9U9x1oxDjRARN/uyplJyffTP2vDVf9UlprCHVqH8oEyDDNWfaKaYI+9&#13;
+3hrQGwhdS62ZABX9JgxzammmkU8Tcog4hZiGieJ3UhQJlhHXvLKtIUkxV0tKB55xV35SAoCWyzKN&#13;
+ISREtOKO2tZRMVugA0gOrF1gxQOLcq+KbO0EUmhW0ehR+LOwYMOcxcYPb5L9Bgi8niigm7mv41Ib&#13;
+x1+WC52kzIT1a9zt+u7ayAQv/95qdmGkktZksA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_12d964fd-cbd7-40aa-9d72-f2d8d153b0ea" Target="#_244e1b17-c5be-4cf4-b7fc-54d5a57b24bc"><Timestamp>2022-11-18 19:59:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
