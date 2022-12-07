@@ -1,0 +1,11 @@
+{
+  "itemId" : "_D_-78GX-Ee2-26q_aQeLMQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_tykasHW4Ee2dOqFbHGEpKw",
+    "parameterList" : [ {
+      "id" : "_tyzrQXW4Ee2dOqFbHGEpKw",
+      "name" : "NikoTokenResponse_Out"
+    } ]
+  } ]
+}
