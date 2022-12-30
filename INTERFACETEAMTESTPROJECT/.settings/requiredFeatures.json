@@ -1,5 +1,7 @@
 {
   "version" : "1.0.0",
   "disable" : null,
-  "requiredInstallableUnits" : [ ]
+  "requiredInstallableUnits" : [ {
+    "id" : "org.talend.lite.designer.component.ws.consumer.feature.feature.group"
+  } ]
 }
